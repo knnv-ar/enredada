@@ -1,115 +1,471 @@
 <html>
-<head>
-<title>La ciudad en.red.ada - ALAS xxii</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<script language="JavaScript">
-<!--
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
+  <head>
+    <title>La ciudad en.red.ada - ALAS xxii</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <script language="JavaScript">
+      <!--
+      function MM_swapImgRestore() {
+        //v3.0
+        var i,
+          x,
+          a = document.MM_sr;
+        for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++)
+          x.src = x.oSrc;
+      }
 
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
+      function MM_preloadImages() {
+        //v3.0
+        var d = document;
+        if (d.images) {
+          if (!d.MM_p) d.MM_p = new Array();
+          var i,
+            j = d.MM_p.length,
+            a = MM_preloadImages.arguments;
+          for (i = 0; i < a.length; i++)
+            if (a[i].indexOf("#") != 0) {
+              d.MM_p[j] = new Image();
+              d.MM_p[j++].src = a[i];
+            }
+        }
+      }
 
-function MM_findObj(n, d) { //v3.0
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
-}
+      function MM_findObj(n, d) {
+        //v3.0
+        var p, i, x;
+        if (!d) d = document;
+        if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+          d = parent.frames[n.substring(p + 1)].document;
+          n = n.substring(0, p);
+        }
+        if (!(x = d[n]) && d.all) x = d.all[n];
+        for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+        for (i = 0; !x && d.layers && i < d.layers.length; i++)
+          x = MM_findObj(n, d.layers[i].document);
+        return x;
+      }
 
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-//-->
-</script>
-</head>
+      function MM_swapImage() {
+        //v3.0
+        var i,
+          j = 0,
+          x,
+          a = MM_swapImage.arguments;
+        document.MM_sr = new Array();
+        for (i = 0; i < a.length - 2; i += 3)
+          if ((x = MM_findObj(a[i])) != null) {
+            document.MM_sr[j++] = x;
+            if (!x.oSrc) x.oSrc = x.src;
+            x.src = a[i + 2];
+          }
+      }
+      //-->
+    </script>
+  </head>
 
-<body bgcolor="#000000" onLoad="MM_preloadImages('img/button_on.jpg','#946286397970');MM_preloadImages('img/button_on.jpg','#946286623440');MM_preloadImages('img/button_on.jpg','#946286638220');MM_preloadImages('img/button_on.jpg','#946286652720');MM_preloadImages('img/button_on.jpg','#946286665300');MM_preloadImages('img/button_on.jpg','#949156053320');MM_preloadImages('img/button_on.jpg','#949374050300')" text="#FFFFFF" link="#FFFFFF" vlink="#FFFFFF" alink="#33FF33">
-<div id="botonera" style="position:absolute; width:93; height:406; z-index:1; left: 0px; top: 0px; background-image:   url(img/barra_new.gif); layer-background-image:   url(img/barra_new.gif); border: 1px none #000000"> 
-  <div id="inicio" style="position:absolute; width:64px; height:40; z-index:14; left: 14px; top: 25px"> 
-    <div align="center"> 
-      <p align="center"><a href="inicio.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.layers[\'Layer1\'].document.layers[\'Layer3\'].document.Image1','document.Image1','img/button_on.jpg','#946286009650')"><img src="img/button_off.jpg" width="20" height="20" border="0" name="Image1" align="middle"></a><br>
-        <a href="inicio.htm"><img src="img/bar_inicio.gif" width="64" height="20" align="middle" border="0"></a></p>
+  <body
+    bgcolor="#000000"
+    onLoad="MM_preloadImages('img/button_on.jpg','#946286397970');MM_preloadImages('img/button_on.jpg','#946286623440');MM_preloadImages('img/button_on.jpg','#946286638220');MM_preloadImages('img/button_on.jpg','#946286652720');MM_preloadImages('img/button_on.jpg','#946286665300');MM_preloadImages('img/button_on.jpg','#949156053320');MM_preloadImages('img/button_on.jpg','#949374050300')"
+    text="#FFFFFF"
+    link="#FFFFFF"
+    vlink="#FFFFFF"
+    alink="#33FF33"
+  >
+    <div
+      id="botonera"
+      style="
+        position: absolute;
+        width: 93;
+        height: 406;
+        z-index: 1;
+        left: 0px;
+        top: 0px;
+        background-image: url(img/barra_new.gif);
+        layer-background-image: url(img/barra_new.gif);
+        border: 1px none #000000;
+      "
+    >
+      <div
+        id="inicio"
+        style="
+          position: absolute;
+          width: 64px;
+          height: 40;
+          z-index: 14;
+          left: 14px;
+          top: 8px;
+        "
+      >
+        <div align="center">
+          <p align="center">
+            <a
+              href="inicio.htm"
+              onMouseOut="MM_swapImgRestore()"
+              onMouseOver="MM_swapImage('document.layers[\'Layer1\'].document.layers[\'Layer3\'].document.Image1','document.Image1','img/button_on.jpg','#946286009650')"
+              ><img
+                src="img/button_off.jpg"
+                width="20"
+                height="20"
+                border="0"
+                name="Image1"
+                align="middle" /></a
+            ><br />
+            <a href="inicio.htm"
+              ><img
+                src="img/bar_inicio.gif"
+                width="64"
+                height="20"
+                align="middle"
+                border="0"
+            /></a>
+          </p>
+        </div>
+      </div>
+      <div
+        id="editorial"
+        style="
+          position: absolute;
+          width: 64;
+          height: 40;
+          z-index: 13;
+          left: 14px;
+          top: 69px;
+        "
+      >
+        <div align="center">
+          <a
+            href="edit.htm"
+            onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('document.layers[\'Layer1\'].document.layers[\'Layer5\'].document.Image2','document.Image2','img/button_on.jpg','#946286397970')"
+            ><img
+              src="img/button_off.jpg"
+              width="20"
+              height="20"
+              border="0"
+              name="Image2" /></a
+          ><br />
+          <a href="edit.htm"
+            ><img src="img/bar_edit.gif" width="64" height="20" border="0"
+          /></a>
+        </div>
+      </div>
+      <p align="center">&nbsp;</p>
+      <div
+        id="entrevista"
+        style="
+          position: absolute;
+          width: 64;
+          height: 40;
+          z-index: 12;
+          left: 14px;
+          top: 114px;
+        "
+      >
+        <div align="center">
+          <a
+            href="entrev/entrev.htm"
+            onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('document.layers[\'Layer1\'].document.layers[\'Layer7\'].document.Image3','document.Image3','img/button_on.jpg','#946286623440')"
+            ><img
+              src="img/button_off.jpg"
+              width="20"
+              height="20"
+              border="0"
+              name="Image3" /></a
+          ><br />
+          <a href="entrev/entrev.htm"
+            ><img src="img/bar_entrvt.gif" width="64" height="20" border="0"
+          /></a>
+        </div>
+      </div>
+      <div
+        id="alas"
+        style="
+          position: absolute;
+          width: 64;
+          height: 40;
+          z-index: 10;
+          left: 14px;
+          top: 187px;
+        "
+      >
+        <p align="center">
+          <a
+            href="alas.htm"
+            onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('document.layers[\'Layer1\'].document.layers[\'Layer8\'].document.Image4','document.Image4','img/button_on.jpg','#946286638220')"
+            ><img
+              src="img/button_off.jpg"
+              width="20"
+              height="20"
+              border="0"
+              name="Image4"
+          /></a>
+          <br />
+          <a href="alas.htm"
+            ><img src="img/bar_alas.gif" width="64" height="20" border="0"
+          /></a>
+        </p>
+      </div>
+      <div
+        id="links"
+        style="
+          position: absolute;
+          width: 64;
+          height: 40;
+          z-index: 8;
+          left: 14px;
+          top: 294px;
+        "
+      >
+        <div align="center">
+          <a
+            href="links.htm"
+            onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('document.layers[\'Layer1\'].document.layers[\'Layer11\'].document.Image5','document.Image5','img/button_on.jpg','#946286652720')"
+            ><img
+              src="img/button_off.jpg"
+              width="20"
+              height="20"
+              border="0"
+              name="Image5" /></a
+          ><br />
+          <a href="links.htm"
+            ><img src="img/bar_links.gif" width="64" height="20" border="0"
+          /></a>
+        </div>
+      </div>
+      <div
+        id="email"
+        style="
+          position: absolute;
+          width: 64;
+          height: 40;
+          z-index: 6;
+          left: 14px;
+          top: 339px;
+        "
+      >
+        <div align="center">
+          <a
+            href="#"
+            onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('document.layers[\'Layer1\'].document.layers[\'Layer13\'].document.Image6','document.Image6','img/button_on.jpg','#946286665300')"
+            ><img
+              src="img/button_off.jpg"
+              width="20"
+              height="20"
+              border="0"
+              name="Image6" /></a
+          ><br />
+          <a href="mailto:enredada@unq.edu.ar"
+            ><img src="img/bar_email.gif" width="64" height="20" border="0"
+          /></a>
+        </div>
+      </div>
+      <div
+        id="derecho"
+        style="
+          position: absolute;
+          width: 64;
+          height: 40;
+          z-index: 11;
+          left: 14px;
+          top: 159px;
+        "
+      >
+        <div align="center">
+          <a
+            href="derecho.htm"
+            onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('document.layers[\'Layer1\'].document.layers[\'Layer4\'].document.Image7','document.Image7','img/button_on.jpg','#949156053320')"
+            ><img
+              src="img/button_off.jpg"
+              width="20"
+              height="20"
+              border="0"
+              name="Image7" /></a
+          ><br />
+          <a href="derecho.htm"
+            ><img src="img/bar_derecho.gif" width="64" height="20" border="0"
+          /></a>
+        </div>
+      </div>
+      <div
+        id="chatroom"
+        style="
+          position: absolute;
+          width: 64;
+          height: 40;
+          z-index: 9;
+          left: 14px;
+          top: 249px;
+        "
+      >
+        <div align="center">
+          <a
+            href="chat.htm"
+            onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('document.layers[\'botonera\'].document.layers[\'Layer1\'].document.Image8','document.Image8','img/button_on.jpg','#949374050300')"
+            ><img
+              src="img/button_off.jpg"
+              width="20"
+              height="20"
+              border="0"
+              name="Image8" /></a
+          ><br />
+          <a href="chat.htm"
+            ><img src="img/bar_chtrm.gif" width="64" height="20" border="0"
+          /></a>
+        </div>
+      </div>
     </div>
-  </div>
-  <div id="editorial" style="position:absolute; width:64; height:40; z-index:13; left: 14px; top: 69px"> 
-    <div align="center"><a href="edit.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.layers[\'Layer1\'].document.layers[\'Layer5\'].document.Image2','document.Image2','img/button_on.jpg','#946286397970')"><img src="img/button_off.jpg" width="20" height="20" border="0" name="Image2"></a><br>
-      <a href="edit.htm"><img src="img/bar_edit.gif" width="64" height="20" border="0"></a> 
-    </div>
-  </div>
-  <p align="center">&nbsp;</p>
-  <div id="entrevista" style="position:absolute; width:64; height:40; z-index:12; left: 14px; top: 114px"> 
-    <div align="center"><a href="entrev/entrev.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.layers[\'Layer1\'].document.layers[\'Layer7\'].document.Image3','document.Image3','img/button_on.jpg','#946286623440')"><img src="img/button_off.jpg" width="20" height="20" border="0" name="Image3"></a><br>
-      <a href="entrev/entrev.htm"><img src="img/bar_entrvt.gif" width="64" height="20" border="0"></a> 
-    </div>
-  </div>
-  <div id="alas" style="position:absolute; width:64; height:40; z-index:10; left: 14px; top: 204px"> 
-    <p align="center"><a href="alas.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.layers[\'Layer1\'].document.layers[\'Layer8\'].document.Image4','document.Image4','img/button_on.jpg','#946286638220')"><img src="img/button_off.jpg" width="20" height="20" border="0" name="Image4"></a> 
-      <br>
-      <a href="alas.htm"><img src="img/bar_alas.gif" width="64" height="20" border="0"></a> 
-    </p>
-  </div>
-  <div id="links" style="position:absolute; width:64; height:40; z-index:8; left: 14px; top: 294px"> 
-    <div align="center"><a href="links.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.layers[\'Layer1\'].document.layers[\'Layer11\'].document.Image5','document.Image5','img/button_on.jpg','#946286652720')"><img src="img/button_off.jpg" width="20" height="20" border="0" name="Image5"></a><br>
-      <a href="links.htm"><img src="img/bar_links.gif" width="64" height="20" border="0"></a> 
-    </div>
-  </div>
-  <div id="email" style="position:absolute; width:64; height:40; z-index:6; left: 14px; top: 339px"> 
-    <div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.layers[\'Layer1\'].document.layers[\'Layer13\'].document.Image6','document.Image6','img/button_on.jpg','#946286665300')"><img src="img/button_off.jpg" width="20" height="20" border="0" name="Image6"></a><br>
-      <a href="mailto:enredada@unq.edu.ar"><img src="img/bar_email.gif" width="64" height="20" border="0"></a> 
-    </div>
-  </div>
-  <div id="derecho" style="position:absolute; width:64; height:40; z-index:11; left: 14px; top: 159px"> 
-    <div align="center"><a href="derecho.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.layers[\'Layer1\'].document.layers[\'Layer4\'].document.Image7','document.Image7','img/button_on.jpg','#949156053320')"><img src="img/button_off.jpg" width="20" height="20" border="0" name="Image7"></a><br>
-      <a href="derecho.htm"><img src="img/bar_derecho.gif" width="64" height="20" border="0"></a> 
-    </div>
-  </div>
-  <div id="chatroom" style="position:absolute; width:64; height:40; z-index:9; left: 14px; top: 249px"> 
-    <div align="center"><a href="chat.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.layers[\'botonera\'].document.layers[\'Layer1\'].document.Image8','document.Image8','img/button_on.jpg','#949374050300')"><img src="img/button_off.jpg" width="20" height="20" border="0" name="Image8"></a><br>
-      <a href="chat.htm"><img src="img/bar_chtrm.gif" width="64" height="20" border="0"></a> 
-    </div>
-  </div>
-</div>
-<table width="675" border="0" align="right">
-  <tr> 
-    <td height="43" colspan="2"><img src="img/tit_alas.gif" width="266" height="51"></td>
-    <td rowspan="4" width="185"><img src="img/alas_img.gif" width="185" height="389"></td>
-  </tr>
-  <tr> 
-    <td width="20" valign="top"> 
-      <p><font face="Courier New, Courier, mono"><b><font color="#FFFFFF" face="Arial, Helvetica, sans-serif" size="-1"><a href="alas22/alas_abstracts.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','img/button_on.jpg',1)"><img src="img/button_off.jpg" width="20" height="20" border="0" name="Image11" align="middle"></a> 
-        </font></b></font></p>
-    </td>
-    <td width="450" valign="top"><font face="Courier New, Courier, mono"><b><font color="#FFFFFF" face="Arial, Helvetica, sans-serif" size="-1"><a href="alas22/alas_abstracts.htm">Abstracts 
-      presentados</a> en el XXII Congreso de la Asociaci&oacute;n Latinoamericana 
-      de Sociolog&iacute;a (ALAS XXII), realizado en Concepci&oacute;n (Chile) 
-      del 12 al 19 de octubre de 1999.</font></b></font></td>
-  </tr>
-  <tr> 
-    <td width="20" valign="top"><font face="Courier New, Courier, mono"><b><font color="#FFFFFF" face="Arial, Helvetica, sans-serif" size="-1"><a href="alas22/alas_articulos.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','img/button_on.jpg',1)"><img name="Image21" border="0" src="img/button_off.jpg" width="20" height="20"></a> 
-      </font></b></font></td>
-    <td valign="top" width="450"><font face="Courier New, Courier, mono"><b><font color="#FFFFFF" face="Arial, Helvetica, sans-serif" size="-1"><a href="alas22/alas_articulos.htm" target="_top">Art&iacute;culos 
-      presentados</a> en el XXII Congreso de la Asociaci&oacute;n Latinoamericana 
-      de Sociolog&iacute;a (ALAS XXII), realizado en Concepci&oacute;n (Chile) 
-      del 12 al 19 de octubre de 1999.</font></b></font> </td>
-  </tr>
-  <tr>
-    <td width="20" valign="top"><font face="Courier New, Courier, mono"><b><a href="alas22/schia_finq.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','img/button_on.jpg',1)"><img name="Image22" border="0" src="img/button_off.jpg" width="20" height="20"></a></b></font></td>
-    <td valign="top" width="450"> 
-      <p><font face="Courier New, Courier, mono"><b><font color="#FFFFFF" face="Arial, Helvetica, sans-serif" size="-1"><a href="alas22/schia_finq.htm">INNOVACIÓN 
-        TECNOLÓGICA Y SOCIEDAD<br>
-        ¿Hacia dónde va América Latina? </a></font></b></font></p>
-      <p align="right"><font face="Courier New, Courier, mono"><b><font color="#FFFFFF" face="Arial, Helvetica, sans-serif" size="-2">Por 
-        Susana Finquelievich y Ester Schiavo <br>
-        Coordinadoras de la </font></b><font color="#FFFFFF" face="Arial, Helvetica, sans-serif" size="-2"><i>Comisión 
-        de Trabajo "Innovación tecnológica y socieda</i></font><font color="#FFFFFF" face="Arial, Helvetica, sans-serif" size="-1"><i><font size="-2">d"</font></i></font></font></p>
-    </td>
-  </tr>
-</table>
-</body>
+    <table width="675" border="0" align="right">
+      <tr>
+        <td height="43" colspan="2">
+          <img src="img/tit_alas.gif" width="266" height="51" />
+        </td>
+        <td rowspan="4" width="185">
+          <img src="img/alas_img.gif" width="185" height="389" />
+        </td>
+      </tr>
+      <tr>
+        <td width="20" valign="top">
+          <p>
+            <font face="Courier New, Courier, mono"
+              ><b
+                ><font
+                  color="#FFFFFF"
+                  face="Arial, Helvetica, sans-serif"
+                  size="-1"
+                  ><a
+                    href="alas22/alas_abstracts.htm"
+                    onMouseOut="MM_swapImgRestore()"
+                    onMouseOver="MM_swapImage('Image11','','img/button_on.jpg',1)"
+                    ><img
+                      src="img/button_off.jpg"
+                      width="20"
+                      height="20"
+                      border="0"
+                      name="Image11"
+                      align="middle"
+                  /></a> </font></b
+            ></font>
+          </p>
+        </td>
+        <td width="450" valign="top">
+          <font face="Courier New, Courier, mono"
+            ><b
+              ><font
+                color="#FFFFFF"
+                face="Arial, Helvetica, sans-serif"
+                size="-1"
+                ><a href="alas22/alas_abstracts.htm">Abstracts presentados</a>
+                en el XXII Congreso de la Asociaci&oacute;n Latinoamericana de
+                Sociolog&iacute;a (ALAS XXII), realizado en Concepci&oacute;n
+                (Chile) del 12 al 19 de octubre de 1999.</font
+              ></b
+            ></font
+          >
+        </td>
+      </tr>
+      <tr>
+        <td width="20" valign="top">
+          <font face="Courier New, Courier, mono"
+            ><b
+              ><font
+                color="#FFFFFF"
+                face="Arial, Helvetica, sans-serif"
+                size="-1"
+                ><a
+                  href="alas22/alas_articulos.htm"
+                  onMouseOut="MM_swapImgRestore()"
+                  onMouseOver="MM_swapImage('Image21','','img/button_on.jpg',1)"
+                  ><img
+                    name="Image21"
+                    border="0"
+                    src="img/button_off.jpg"
+                    width="20"
+                    height="20"
+                /></a> </font></b
+          ></font>
+        </td>
+        <td valign="top" width="450">
+          <font face="Courier New, Courier, mono"
+            ><b
+              ><font
+                color="#FFFFFF"
+                face="Arial, Helvetica, sans-serif"
+                size="-1"
+                ><a href="alas22/alas_articulos.htm" target="_top"
+                  >Art&iacute;culos presentados</a
+                >
+                en el XXII Congreso de la Asociaci&oacute;n Latinoamericana de
+                Sociolog&iacute;a (ALAS XXII), realizado en Concepci&oacute;n
+                (Chile) del 12 al 19 de octubre de 1999.</font
+              ></b
+            ></font
+          >
+        </td>
+      </tr>
+      <tr>
+        <td width="20" valign="top">
+          <font face="Courier New, Courier, mono"
+            ><b
+              ><a
+                href="alas22/schia_finq.htm"
+                onMouseOut="MM_swapImgRestore()"
+                onMouseOver="MM_swapImage('Image22','','img/button_on.jpg',1)"
+                ><img
+                  name="Image22"
+                  border="0"
+                  src="img/button_off.jpg"
+                  width="20"
+                  height="20" /></a></b
+          ></font>
+        </td>
+        <td valign="top" width="450">
+          <p>
+            <font face="Courier New, Courier, mono"
+              ><b
+                ><font
+                  color="#FFFFFF"
+                  face="Arial, Helvetica, sans-serif"
+                  size="-1"
+                  ><a href="alas22/schia_finq.htm"
+                    >INNOVACIï¿½N TECNOLï¿½GICA Y SOCIEDAD<br />
+                    ï¿½Hacia dï¿½nde va Amï¿½rica Latina?
+                  </a></font
+                ></b
+              ></font
+            >
+          </p>
+          <p align="right">
+            <font face="Courier New, Courier, mono"
+              ><b
+                ><font
+                  color="#FFFFFF"
+                  face="Arial, Helvetica, sans-serif"
+                  size="-2"
+                  >Por Susana Finquelievich y Ester Schiavo <br />
+                  Coordinadoras de la
+                </font></b
+              ><font
+                color="#FFFFFF"
+                face="Arial, Helvetica, sans-serif"
+                size="-2"
+                ><i
+                  >Comisiï¿½n de Trabajo "Innovaciï¿½n tecnolï¿½gica y socieda</i
+                ></font
+              ><font
+                color="#FFFFFF"
+                face="Arial, Helvetica, sans-serif"
+                size="-1"
+                ><i><font size="-2">d"</font></i></font
+              ></font
+            >
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
